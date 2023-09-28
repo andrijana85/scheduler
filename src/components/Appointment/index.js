@@ -9,6 +9,7 @@ import Show from "components/Appointment/Show";
 
 const EMPTY = "EMPTY";
 const SHOW = "SHOW";
+const CREATE = "CREATE";
 
 export default function Appointment(props) {
   const { mode, transition, back } = useVisualMode(
@@ -17,7 +18,7 @@ export default function Appointment(props) {
   return (
     <article className="appointment" data-testid="appointment">
       <Header time={props.time} />
-      {mode === EMPTY && <Empty onAdd={() => console.log("Clicked onAdd")} />}
+      {mode === EMPTY && <Empty onAdd={() => transition(CREATE)} />}
       {mode === SHOW && (
         <Show
           student={props.interview.student}
