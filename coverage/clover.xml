@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1696568990751" clover="3.2.0">
-  <project timestamp="1696568990751" name="All files">
-    <metrics statements="119" coveredstatements="84" conditionals="65" coveredconditionals="44" methods="63" coveredmethods="39" elements="247" coveredelements="167" complexity="0" loc="119" ncloc="119" packages="5" files="19" classes="19"/>
+<coverage generated="1696570113438" clover="3.2.0">
+  <project timestamp="1696570113439" name="All files">
+    <metrics statements="119" coveredstatements="86" conditionals="65" coveredconditionals="45" methods="63" coveredmethods="41" elements="247" coveredelements="172" complexity="0" loc="119" ncloc="119" packages="5" files="19" classes="19"/>
     <package name="components">
-      <metrics statements="23" coveredstatements="20" conditionals="6" coveredconditionals="4" methods="12" coveredmethods="10"/>
+      <metrics statements="23" coveredstatements="21" conditionals="6" coveredconditionals="4" methods="12" coveredmethods="11"/>
       <file name="Application.js" path="/home/labber/scheduler/scheduler/scheduler/src/components/Application.js">
         <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-        <line num="22" count="2" type="stmt"/>
-        <line num="24" count="2" type="stmt"/>
-        <line num="26" count="2" type="stmt"/>
-        <line num="28" count="2" type="stmt"/>
-        <line num="41" count="2" type="stmt"/>
+        <line num="22" count="5" type="stmt"/>
+        <line num="24" count="5" type="stmt"/>
+        <line num="26" count="5" type="stmt"/>
+        <line num="28" count="6" type="stmt"/>
+        <line num="41" count="5" type="stmt"/>
       </file>
       <file name="Button.js" path="/home/labber/scheduler/scheduler/scheduler/src/components/Button.js">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
@@ -19,18 +19,18 @@
       </file>
       <file name="DayList.js" path="/home/labber/scheduler/scheduler/scheduler/src/components/DayList.js">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-        <line num="6" count="2" type="stmt"/>
-        <line num="7" count="2" type="stmt"/>
-        <line num="18" count="2" type="stmt"/>
+        <line num="6" count="5" type="stmt"/>
+        <line num="7" count="6" type="stmt"/>
+        <line num="18" count="5" type="stmt"/>
       </file>
       <file name="DayListItem.js" path="/home/labber/scheduler/scheduler/scheduler/src/components/DayListItem.js">
-        <metrics statements="6" coveredstatements="4" conditionals="4" coveredconditionals="2" methods="3" coveredmethods="2"/>
-        <line num="7" count="2" type="cond" truecount="1" falsecount="1"/>
-        <line num="8" count="2" type="cond" truecount="1" falsecount="1"/>
+        <metrics statements="6" coveredstatements="5" conditionals="4" coveredconditionals="2" methods="3" coveredmethods="3"/>
+        <line num="7" count="6" type="cond" truecount="1" falsecount="1"/>
+        <line num="8" count="6" type="cond" truecount="1" falsecount="1"/>
         <line num="10" count="0" type="stmt"/>
-        <line num="14" count="2" type="stmt"/>
-        <line num="19" count="2" type="stmt"/>
-        <line num="22" count="0" type="stmt"/>
+        <line num="14" count="6" type="stmt"/>
+        <line num="19" count="6" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
       </file>
       <file name="InterviewerList.js" path="/home/labber/scheduler/scheduler/scheduler/src/components/InterviewerList.js">
         <metrics statements="5" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2"/>
@@ -54,7 +54,7 @@
       </file>
       <file name="Empty.js" path="/home/labber/scheduler/scheduler/scheduler/src/components/Appointment/Empty.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="4" count="4" type="stmt"/>
+        <line num="4" count="9" type="stmt"/>
       </file>
       <file name="Error.js" path="/home/labber/scheduler/scheduler/scheduler/src/components/Appointment/Error.js">
         <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
@@ -84,11 +84,11 @@
       </file>
       <file name="Header.js" path="/home/labber/scheduler/scheduler/scheduler/src/components/Appointment/Header.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="4" count="5" type="stmt"/>
+        <line num="4" count="12" type="stmt"/>
       </file>
       <file name="Show.js" path="/home/labber/scheduler/scheduler/scheduler/src/components/Appointment/Show.js">
         <metrics statements="1" coveredstatements="1" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
-        <line num="4" count="1" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
       </file>
       <file name="Status.js" path="/home/labber/scheduler/scheduler/scheduler/src/components/Appointment/Status.js">
         <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
@@ -105,7 +105,7 @@
         <line num="20" count="2" type="stmt"/>
         <line num="21" count="2" type="stmt"/>
         <line num="22" count="2" type="stmt"/>
-        <line num="25" count="5" type="stmt"/>
+        <line num="25" count="12" type="stmt"/>
         <line num="30" count="0" type="stmt"/>
         <line num="35" count="0" type="stmt"/>
         <line num="37" count="0" type="stmt"/>
@@ -115,7 +115,7 @@
         <line num="45" count="0" type="stmt"/>
         <line num="47" count="0" type="stmt"/>
         <line num="48" count="0" type="stmt"/>
-        <line num="50" count="5" type="stmt"/>
+        <line num="50" count="12" type="stmt"/>
         <line num="53" count="0" type="cond" truecount="2" falsecount="0"/>
         <line num="57" count="0" type="stmt"/>
         <line num="58" count="0" type="stmt"/>
@@ -125,63 +125,63 @@
       <metrics statements="7" coveredstatements="7" conditionals="10" coveredconditionals="10" methods="7" coveredmethods="7"/>
       <file name="selectors.js" path="/home/labber/scheduler/scheduler/scheduler/src/helpers/selectors.js">
         <metrics statements="7" coveredstatements="7" conditionals="10" coveredconditionals="10" methods="7" coveredmethods="7"/>
-        <line num="2" count="7" type="stmt"/>
-        <line num="4" count="7" type="cond" truecount="4" falsecount="0"/>
-        <line num="6" count="10" type="stmt"/>
-        <line num="10" count="7" type="stmt"/>
-        <line num="12" count="7" type="cond" truecount="4" falsecount="0"/>
-        <line num="14" count="8" type="stmt"/>
-        <line num="18" count="4" type="stmt"/>
+        <line num="2" count="10" type="stmt"/>
+        <line num="4" count="10" type="cond" truecount="4" falsecount="0"/>
+        <line num="6" count="14" type="stmt"/>
+        <line num="10" count="10" type="stmt"/>
+        <line num="12" count="10" type="cond" truecount="4" falsecount="0"/>
+        <line num="14" count="12" type="stmt"/>
+        <line num="18" count="8" type="stmt"/>
       </file>
     </package>
     <package name="hooks">
-      <metrics statements="26" coveredstatements="19" conditionals="9" coveredconditionals="5" methods="18" coveredmethods="12"/>
+      <metrics statements="26" coveredstatements="19" conditionals="9" coveredconditionals="5" methods="18" coveredmethods="13"/>
       <file name="useApplicationData.js" path="/home/labber/scheduler/scheduler/scheduler/src/hooks/useApplicationData.js">
-        <metrics statements="11" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="3"/>
-        <line num="14" count="2" type="stmt"/>
-        <line num="21" count="2" type="stmt"/>
-        <line num="23" count="2" type="stmt"/>
-        <line num="24" count="1" type="stmt"/>
-        <line num="30" count="1" type="stmt"/>
-        <line num="39" count="2" type="stmt"/>
+        <metrics statements="11" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="4"/>
+        <line num="14" count="5" type="stmt"/>
+        <line num="21" count="5" type="stmt"/>
+        <line num="23" count="5" type="stmt"/>
+        <line num="24" count="2" type="stmt"/>
+        <line num="30" count="2" type="stmt"/>
+        <line num="39" count="5" type="stmt"/>
         <line num="42" count="0" type="stmt"/>
         <line num="43" count="0" type="stmt"/>
         <line num="52" count="0" type="stmt"/>
         <line num="53" count="0" type="stmt"/>
-        <line num="61" count="2" type="stmt"/>
+        <line num="61" count="5" type="stmt"/>
       </file>
       <file name="useRealtimeUpdate.js" path="/home/labber/scheduler/scheduler/scheduler/src/hooks/useRealtimeUpdate.js">
         <metrics statements="8" coveredstatements="5" conditionals="4" coveredconditionals="0" methods="4" coveredmethods="3"/>
-        <line num="5" count="2" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="8" count="1" type="stmt"/>
+        <line num="5" count="5" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
         <line num="9" count="0" type="stmt"/>
         <line num="11" count="0" type="cond" truecount="0" falsecount="4"/>
         <line num="12" count="0" type="stmt"/>
-        <line num="16" count="1" type="stmt"/>
-        <line num="17" count="1" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
       </file>
       <file name="useVisualMode.js" path="/home/labber/scheduler/scheduler/scheduler/src/hooks/useVisualMode.js">
         <metrics statements="7" coveredstatements="7" conditionals="5" coveredconditionals="5" methods="6" coveredmethods="6"/>
-        <line num="5" count="18" type="stmt"/>
+        <line num="5" count="25" type="stmt"/>
         <line num="8" count="5" type="cond" truecount="2" falsecount="0"/>
         <line num="9" count="1" type="stmt"/>
         <line num="11" count="4" type="stmt"/>
         <line num="15" count="4" type="cond" truecount="2" falsecount="0"/>
         <line num="16" count="3" type="stmt"/>
-        <line num="20" count="18" type="stmt"/>
+        <line num="20" count="25" type="stmt"/>
       </file>
     </package>
     <package name="reducers">
-      <metrics statements="15" coveredstatements="6" conditionals="10" coveredconditionals="2" methods="4" coveredmethods="1"/>
+      <metrics statements="15" coveredstatements="7" conditionals="10" coveredconditionals="3" methods="4" coveredmethods="1"/>
       <file name="application.js" path="/home/labber/scheduler/scheduler/scheduler/src/reducers/application.js">
-        <metrics statements="15" coveredstatements="6" conditionals="10" coveredconditionals="2" methods="4" coveredmethods="1"/>
+        <metrics statements="15" coveredstatements="7" conditionals="10" coveredconditionals="3" methods="4" coveredmethods="1"/>
         <line num="1" count="2" type="stmt"/>
         <line num="2" count="2" type="stmt"/>
         <line num="3" count="2" type="stmt"/>
-        <line num="6" count="2" type="cond" truecount="2" falsecount="2"/>
-        <line num="8" count="0" type="stmt"/>
-        <line num="10" count="1" type="stmt"/>
+        <line num="6" count="4" type="cond" truecount="3" falsecount="1"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
         <line num="17" count="0" type="stmt"/>
         <line num="22" count="0" type="stmt"/>
         <line num="27" count="0" type="stmt"/>
